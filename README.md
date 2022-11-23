@@ -11,7 +11,7 @@ In emulating the original extension, this extension now supports the following s
 
 All shortcuts only work in command mode and are editable by the user by going to Settings -> Advanced Settings Editor -> Keyboard Shortcuts and editing the shortcuts there.
 
-![Alt Text](Demo2.gif**
+![Alt Text](Demo2.gif)
 
 ## Requirements
 
