@@ -6,22 +6,7 @@
   "jupyter.lab.shortcuts": [
     {
       "command": "Collapsible_Headings:Toggle_Collapse",
-      "keys": ["Accel Q"],
-      "selector": ".jp-Notebook:focus"
-    },
-    {
-      "command": "Collapsible_Headings:Toggle_Collapse",
       "keys": ["T"],
-      "selector": ".jp-Notebook:focus"
-    },
-    {
-      "command": "Collapsible_Headings:Add_Header_Above",
-      "keys": ["Shift A"],
-      "selector": ".jp-Notebook:focus"
-    },
-    {
-      "command": "Collapsible_Headings:Add_Header_Below",
-      "keys": ["Shift B"],
       "selector": ".jp-Notebook:focus"
     },
     {

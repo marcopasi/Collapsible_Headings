@@ -39,7 +39,7 @@ function activate(
 ){
   console.log('JupyterLab extension @aquirdturtle/collapsible_headings is activated!!');
 
-  //settings.load(plugin.id).then(resSettings => debugLog('LOAD SETTINGS: ', resSettings));
+  settings.load(plugin.id).then(resSettings => debugLog('LOAD SETTINGS: ', resSettings));
   
   const uncollapseHeaderCmd:      string = 'Collapsible_Headings:Uncollapse_Header';
   const collapseCmd:              string = 'Collapsible_Headings:Collapse_Header';
