@@ -1,4 +1,4 @@
-# aquirdturtle_collapsible_headings
+# marcopasi_collapsible_headings
 
 Make headings collapsible like the old Jupyter notebook extension and like Mathematica notebooks.
 
@@ -8,18 +8,18 @@ In emulating the original extension, this extension now supports the following s
 - "T" or "Accel Q" shortcuts to toggle Collapse
 - "Left-Arrow" to collapse the selected current header section
 - "Right-Arrow" to *uncollapse* the selected current header section
-- "Shift-A" to add a header above the current cell
-- "Shift-B" to add a header below the current header section
 
 All shortcuts only work in command mode and are editable by the user by going to Settings -> Advanced Settings Editor -> Keyboard Shortcuts and editing the shortcuts there.
 
-![Alt Text](Demo2.gif)
+![Alt Text](Demo2.gif**
 
 ## Requirements
 
-* JupyterLab >= 3.0
+* JupyterLab >= 3.1
 
 ## Install
+
+**The following instructions are valid for the original package. This fork requires Development install (see below).**
 
 You should be able to install the extension either using the jupyterlab extension manager (drawing from my npm repository) or by using pip, which draws from pypi. Both should be update to date. Conda not yet supported.
 
@@ -41,7 +41,7 @@ The `jlpm` command is JupyterLab's pinned version of
 # Clone the repo to your local environment
 # Change directory to the aquirdturtle_collapsible_headings directory
 # Install package in development mode
-pip install -e .
+pip install -ve .
 # Link your development version of the extension with JupyterLab
 jupyter labextension develop . --overwrite
 # Rebuild extension Typescript source after making changes
