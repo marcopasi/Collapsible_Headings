@@ -9,7 +9,7 @@ import { Notebook, INotebookTracker, NotebookActions } from '@jupyterlab/noteboo
 
 import { Cell } from '@jupyterlab/cells';
 
-//import { ElementExt } from '@phosphor/domutils';
+import { ElementExt } from '@lumino/domutils';
 
 import { ISettingRegistry } from '@jupyterlab/settingregistry';
 
@@ -115,10 +115,10 @@ function collapseCell(nbTrack: INotebookTracker) {
     }
     notebook.activeCellIndex = parentLoc;
   }
-  // ElementExt.scrollIntoViewIfNeeded(
-  //   nbTrack.currentWidget.content.node,
-  //   nbTrack.activeCell.node
-  // );
+  ElementExt.scrollIntoViewIfNeeded(
+    notebook.node,
+    notebook.activeCell.node
+  );
 }
 
 
@@ -145,10 +145,10 @@ function uncollapseCell(nbTrack: INotebookTracker) {
     }
     notebook.activeCellIndex = parentLoc;
   }
-  // ElementExt.scrollIntoViewIfNeeded(
-  //   nbTrack.currentWidget.content.node,
-  //   nbTrack.activeCell.node
-  // );
+  ElementExt.scrollIntoViewIfNeeded(
+    notebook.node,
+    notebook.activeCell.node
+  );
 }
 
 
