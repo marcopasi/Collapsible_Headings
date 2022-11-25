@@ -5,11 +5,6 @@
   "description": "Collapsible Headings Settings",
   "jupyter.lab.shortcuts": [
     {
-      "command": "Collapsible_Headings:Toggle_Collapse",
-      "keys": ["T"],
-      "selector": ".jp-Notebook:focus"
-    },
-    {
       "command": "Collapsible_Headings:Uncollapse_Header",
       "keys": ["ArrowRight"],
       "selector": ".jp-Notebook:focus"
